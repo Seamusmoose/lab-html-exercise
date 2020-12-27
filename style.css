@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+Html {
+  margin: 0;
+  padding: 0;  
+  font-family: 'Poppins';
+}
+
+
+
+/* header */
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+
+ #Search {
+ width: 800px;  
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ padding: 5px 0px 5px 0px;
+} 
+
+.logo {    
+height: 20px; 
+}
+
+#search-button { 
+margin: 0px 0px;      
+padding: 10px; 
+width: 100px;    
+background-color: red;
+border: none;
+color: white;
+
+}
+.join-button {
+padding: 5px 10px 5px 10px; 
+background-color: white;
+
+}
+
+.sign-in {
+padding: 5px 10px 5px 10px;
+background-color: white;
+}
+
+
+  /* section 1 */
+
+  .layout {
+height: 600px;      
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+
+  #sect1 {
+    background-color: rgba(232,217,217,.3);    
+  }
+
+h1 {
+ font-size: 60px;   
+}
+
+#sect1 > article {
+   margin: 0px 0px 80px;
+} 
+
+.sect1b button {
+    margin: 10px;  
+    width: 150px;   
+   height: 50px;     
+   border: none;
+}
+
+.b1 {
+background-color: #FB3B49; 
+box-shadow: 4px 8px 8px 0 rgba(251,59,73,.2);
+
+
+}
+
+#sect1 > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+/*Section 2 */
+
+h2 {
+background-color: rgba(255,204,53,.4);
+transform: skew(9deg,0deg);
+font-style: italic;
+}
+
+
+.hex-size {
+    width: 300px;
+height: 300px; 
+}
+
+#Sect2 > p {   
+text-align: center;    
+
+}
+
+
+/*Section 3 */
+
+h3 {
+color: #ED1C24;    
+}
+
+#sect3 {
+ height: 400px;   
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#sect3 > div > img {
+ width: 30px;
+ height: 30px;    
+}
+
+.det-container {
+    height: 300px;      
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 10px
+}
+
+#sect3 > div > p {
+display: inline-block;
+margin: 10px;
+width: 250px;
+text-align: start;
+}
+
+#org-button {
+ padding: 10px; 
+ margin-bottom: 80px;  
+display: flex;
+align-items: flex-start;   
+justify-content: center; 
+
+}
+
+#org-button button {
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    border: black;
+    margin: 10px;  
+    width: 400px;   
+   height: 50px;     
+   border: none;  
+}
+
